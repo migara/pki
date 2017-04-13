@@ -53,6 +53,7 @@
 #!python
 
 cd intermediate
+
 openssl genrsa -aes256 -out ./private/client-test-1.key.pem 2048
 
 chmod 400 ./private/client-test-1.key.pem
