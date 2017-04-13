@@ -66,3 +66,6 @@ chmod 444 ./certs/client-test-1.cert.pem
 
 openssl pkcs12 -export -inkey private/client-test-1.key.pem  -in certs/client-test-1.cert.pem -name client5 -out client5.pfx
 ```
+
+### For more information ###
+https://jamielinux.com/docs/openssl-certificate-authority/introduction.html
