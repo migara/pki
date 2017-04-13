@@ -48,6 +48,10 @@
 
 ### How to genrate a client certificate ###
 
+
+```
+#!python
+
 cd intermediate
 openssl genrsa -aes256 -out ./private/client-test-1.key.pem 2048
 
@@ -60,3 +64,4 @@ openssl ca -config ./openssl.cnf -extensions usr_cert -days 375 -notext -md sha2
 chmod 444 ./certs/client-test-1.cert.pem
 
 openssl pkcs12 -export -inkey private/client-test-1.key.pem  -in certs/client-test-1.cert.pem -name client5 -out client5.pfx
+```
