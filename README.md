@@ -13,8 +13,6 @@
 
 
 ```
-#!python
-
 .
 ├── certs
 │   └── ca.cert.pem
@@ -50,7 +48,6 @@
 
 
 ```
-#!python
 
 cd intermediate
 
